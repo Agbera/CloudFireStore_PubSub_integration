@@ -16,7 +16,7 @@ def hello_firestore(event, context):
     print(str(event))
 #projects/avian-amulet-378416/topics/func-1-demo
     topic_name = 'function-demo'
-    PROJECT_ID =  'my-project-1'
+    PROJECT_ID =  'my-project-1-383207'
     message = str(event)
 
     topic_path = publisher.topic_path(PROJECT_ID, topic_name)
