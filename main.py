@@ -14,7 +14,7 @@ def hello_firestore(event, context):
     print(f"Function triggered by change to: {resource_string}.")
     # now print out the entire event object
     print(str(event))
-#projects/avian-amulet-378416/topics/func-1-demo
+#projects/shining-glyph-384722/topics/class-pub
     topic_name = 'class-pub'
     PROJECT_ID =  'shining-glyph-384722'
     message = str(event)
