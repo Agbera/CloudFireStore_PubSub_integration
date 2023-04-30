@@ -15,7 +15,7 @@ def hello_firestore(event, context):
     # now print out the entire event object
     print(str(event))
 #projects/avian-amulet-378416/topics/func-1-demo
-    topic_name = 'demo-pub'
+    topic_name = 'class-pub'
     PROJECT_ID =  'shining-glyph-384722'
     message = str(event)
 
